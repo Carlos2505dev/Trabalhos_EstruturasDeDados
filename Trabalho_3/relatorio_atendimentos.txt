@@ -1,0 +1,13 @@
+=============================================
+     RELATÓRIO DE ATENDIMENTOS - FILA IMPRESSÃO
+=============================================
+Gerado em: Mon Jun 30 10:00:00 2025
+
+--- RESUMO ---
+Total atendidos   : 0
+  Prioritários    : 0
+  Normais         : 0
+Páginas impressas : 0
+
+--- HISTÓRICO DETALHADO ---
+ID     Arquivo                        Páginas  Tipo         Espera(s)   Atendido em

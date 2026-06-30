@@ -48,8 +48,8 @@ Simula o funcionamento dos botões "Voltar" e "Avançar" de um navegador web.
 
 Simula o gerenciamento de uma fila de impressão de documentos com dois níveis de prioridade.
 
-- **Funcionalidades:** Enfileiramento, processamento intercalado de trabalhos (1 prioritário para cada 2 normais), consultas, limpeza de filas com confirmação, estatísticas e relatórios.
-- **Características:** Persistência em arquivo CSV, validação de IDs únicos e positivos, nome de arquivo não vazio, páginas > 0, prioridade 0/1, e timestamp automático nas impressões.
+- **Funcionalidades:** Enfileiramento, processamento intercalado de trabalhos com proporção configurável (padrão: 1 prioritário para cada 1 normal), consultas, busca e cancelamento por ID, estatísticas detalhadas de atendimento, relatórios com timestamp, e configuração de proporção de prioridade.
+- **Características:** Persistência em arquivos CSV separados (fila normal e prioritária), validação de IDs únicos e positivos, nome de arquivo não vazio, páginas > 0, timestamp automático nas entradas, e feedback claro em todas as operações.
 
 ---
 
@@ -84,7 +84,9 @@ Cada trabalho está contido em sua respectiva pasta (`Trabalho_1`, `Trabalho_2`,
 │   ├── main.c               # Código-fonte (melhorado!)
 │   ├── Makefile             # Compilação Unix
 │   ├── compile.bat          # Compilação Windows
-│   ├── fila_impressao.csv   # Arquivo de dados
+│   ├── fila_normal.csv       # Arquivo de dados (fila normal)
+│   ├── fila_prioritaria.csv # Arquivo de dados (fila prioritária)
+│   ├── relatorio_atendimentos.txt # Relatório de atendimentos
 │   ├── README.md            # Documentação completa
 │   ├── QUICKSTART.md        # Guia rápido
 │   └── TESTES.md            # Plano de testes
