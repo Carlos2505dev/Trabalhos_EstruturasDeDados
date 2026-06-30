@@ -1,0 +1,5 @@
+Relatório do Simulador de Navegador
+===================================
+Total de páginas visitadas na sessão: 1
+Páginas no histórico atual: 1
+Páginas no futuro atual: 0
